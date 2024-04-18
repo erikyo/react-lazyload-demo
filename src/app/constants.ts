@@ -6,5 +6,6 @@ export const pages: string[] = [
 	"images",
 	"animated",
 	"native",
+	"infiniteScroll",
 	"no-lazyload",
 ];
