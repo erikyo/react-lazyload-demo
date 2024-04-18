@@ -1,6 +1,6 @@
 {
   "name": "rvll",
-  "version": "0.1.1",
+  "version": "1.0.1",
   "private": true,
   "author": "Erik <erik@codekraft.it> (https://github.com/erikyo)",
   "scripts": {
@@ -14,7 +14,7 @@
     "next": "14.2.1",
     "react": "^18.2.0",
     "react-calendar": "^4.8.0",
-    "react-vanilla-lazyload": "1.0.3",
+    "react-vanilla-lazyload": "^1.0.4",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
