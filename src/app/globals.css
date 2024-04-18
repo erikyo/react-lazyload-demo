@@ -11,6 +11,10 @@
     margin: 25px;
 }
 
+p {
+    margin: 40px 25px 25px;
+}
+
 .link {
     margin: 16px;
     padding: 1rem 2rem;
