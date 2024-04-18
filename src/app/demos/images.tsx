@@ -7,15 +7,17 @@ export default function Images() {
 	return (
 		<>
 			<WallPaper />
-			{[...Array(50).keys()].map((index) => (
+			{[...Array(40).keys()].map((index) => (
 				<LazyImg
 					key={index}
-					src={`https://verlok.github.io/vanilla-lazyload/demos/images/440x560-${String(
+					src={`/images/220x280-${String(
 						index + 1,
 					).padStart(2, "0")}.webp`}
 					className={`demo-item lazyItem-${index}`}
 					alt="random"
 					title="random"
+                    width={220}
+                    height={280}
 					onLoad={() => {
 						console.log(
 							"Loaded",

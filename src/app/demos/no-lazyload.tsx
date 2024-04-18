@@ -9,13 +9,16 @@ export default function ImagesLL() {
 	return (
 		<>
 			<WallPaper />
-			{[...Array(50).keys()].map((index) => (
+            <p>This is an example without lazy loading</p>
+			{[...Array(40).keys()].map((index) => (
 				<Image
 					className={"demo-item"}
 					key={index}
 					loading={"lazy"}
 					alt={""}
-					src={`https://verlok.github.io/vanilla-lazyload/demos/images/440x560-${String(
+                    width={220}
+                    height={280}
+					src={`/images/220x280-${String(
 						index + 1,
 					).padStart(2, "0")}.webp`}
 				/>
